@@ -9,7 +9,24 @@
     
 </head>
 <body>
-    <h1>Tarea 2</h1>
+    <h1>Bienvenido!</h1>
+    <form>
+        <label for="primer-nombre">Primer nombre*</label>
+        <input id="primer-nombre">
+        <br>
+        <label for="segundo-nombre">Segundo nombre</label>
+        <input id="segundo-nombre">
+        <br>
+        <label for="apellidos">Apellidos*</label>
+        <input id="apellidos">
+        <br>
+        <label for="edad">Edad*</label>
+        <input id="edad" type="number" min="1">
+        <button id="boton-ingresar">Ingresar</button>
+        <button id="reset" type="reset">Reset</button>
+        <p>*Campos obligatorios</p>
+    </form>
+    <div id="resultado"></div>
     <script src='tarea-2.js'></script>
 </body>
 </html>
