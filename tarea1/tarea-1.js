@@ -1,5 +1,6 @@
 function calcularSalarioMensual(salarioAnual) {
-    return salarioAnual / 12;
+    const mesesEnUnAnio = 12;
+    return salarioAnual / mesesEnUnAnio;
 }
 
 const $botonCalcular = document.querySelector("#boton-calcular");
